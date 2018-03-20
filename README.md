@@ -7,8 +7,8 @@ For internal use testing the tracking bitcoin realtime.
 3. Build the production on build folder by run `npm build run`
 4. Go to build folder `cd build`
 5. Create server.js and input the code
-  `    
-    const express = require('express')
+
+  ` const express = require('express')
     const path = require('path')
     const bodyParser = require('body-parser')
     const app = express()
@@ -49,8 +49,7 @@ For internal use testing the tracking bitcoin realtime.
 
     app.listen(app.get('port'), () => {
         console.log('Node app is running on port', app.get('port'))
-    })
-  `
+    })`
   6. Run `npm init` and click enter until finish
   7. Run with `node server.js` 
   8. Open browser and go to localhost:5000
