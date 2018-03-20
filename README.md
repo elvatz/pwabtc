@@ -2,7 +2,7 @@
 For internal use testing the tracking bitcoin realtime.
 
 ## How to using :
-1. Download or Clone on the repo - https://github.com/elvatz/pwabtc
+1. Download or Clone on the repo - https://github.com/elvatz/pwabtc.git
 2. On root folder run `npm install`
 3. Build the production on build folder by run `npm build run`
 4. Go to build folder `cd build`
